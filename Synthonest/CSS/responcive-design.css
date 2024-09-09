@@ -1,0 +1,136 @@
+@media screen and (max-width:1024px) {
+    .services-cards .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .service-card{
+        width: 40% !important;
+        height: 350px;
+    }
+    .footer-div img{
+        width: 120px !important;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .hero-section h1{
+        margin: 45px 0px !important;
+    }
+    .hero-section p{
+        margin: 30px 0px !important;
+        line-height: 40px;
+    }
+    .hero-btn{
+        font-size: 16px !important;
+        padding: 8px 10px;
+    }
+    .faq-collapse div{
+        width: 97% !important;
+        margin-right: 34px !important;
+        margin-left: -4px !important;
+        margin-bottom: 10px !important;
+        margin: auto;
+        background-color: var(--primary-color) !important;
+        text-align: left !important;
+    }
+}
+@media screen and (max-width:768px) {
+    nav.myNav{
+        padding: 0px !important;
+    }
+    nav .navbar-brand{
+        width: 100px;
+
+    }
+    .hero-section h1{
+        font-size: 28px !important;
+        margin-bottom: 20px !important;
+    }
+    .hero-section p{
+        font-size: 16px !important;
+        margin-top: 10px !important;
+        line-height: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .hero-section{
+        margin-top: 10px !important;
+        padding: 0px !important;
+    }
+    .hero-section-img{
+        padding: 0px !important;
+    }
+    .hero-section-img img{
+        width: 75% !important;
+        margin-left: 30px !important;
+    }
+    .hero-section .row{
+        margin: 0px !important;
+    }
+    .mission h2{
+        font-size: 22px !important;
+    }
+    .mission p{
+        font-size: 14px !important;
+    }
+    .mission img{
+        margin-left: 20px !important;
+    }
+    .blur-purple img{
+        width: 200px !important;
+        top: 340px !important;
+        right: 0px !important;
+    }
+    .blur-blue img{
+        width: 500px !important;
+    }
+    .hero-section div:first-child{
+        padding: 10px !important;
+    }
+    .sec-img img{
+        top: 1300px !important;
+    }
+    .sec-img-blue img{
+        top: 2000px !important;
+        left: -70px !important;
+        width: 300px !important;
+    }
+    .service-card{
+        display: block !important;
+        width: 80% !important;
+        height: 340px;
+    }
+    .contact-us .form{
+        width: 99%;
+        margin: auto;
+    } 
+    .contact-us input{
+        width: 100% !important;
+    }
+    .faq-button{
+        width: 95% !important;
+    }
+    .footer-div{
+        width: 100% !important;
+        display: block;
+        margin-top: 40px !important;
+    }
+    .footer-btn{
+        text-align: left !important;
+        display: block;
+        margin-top: 40px !important;
+    }
+   
+    .footer-div .inner-first{
+        display: flex !important ;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+    .footer-div .inner-first div{
+        width: 100%;
+    }
+    .footer-btn i{
+        margin-right: 5px !important;
+    }
+}
